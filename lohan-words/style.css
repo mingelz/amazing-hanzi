@@ -1,28 +1,88 @@
 body {
-    font: 16px georgia, "lucida grande", "microsoft yaHei", verdana, sans-serif;
+    font: 16px georgia, 'lucida grande', 'microsoft yaHei', verdana, sans-serif;
 }
 
 #wrapper{
     margin: 0 auto;
     width: 620px;
-}
-
-header {
-    margin-bottom: 50px;
-}
-
-section {
     line-height: 1.8;
 }
 
-#content{margin-top:50px;line-height:1.8;}
-#content table{margin-top:20px;border-collapse:collapse;border-spacing:0;width:100%;}
-#content caption{background-color:#CCC;font:700 18px/2 'Microsoft Yahei';}
-#content th,#content td{border:1px solid #CCC;padding:3px 8px;}
-#content table ol{margin:.4em 0;}
-        col.words{width:12%;}
-        col.phonetic{width:12%;}
-        #supplement{margin-top:50px;}
-#footer{margin-top:50px;padding-bottom:20px;text-align:right;line-height:1.5;}
-.fn{font-style:italic;}
+header {
+}
+
+section {
+    margin-top: 40px;
+}
+
+#content table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+#content table caption {
+    background-color: #ccc;
+    font: 700 18px/2 'microsoft yahei';
+}
+#content table th,
+#content table td {
+    border: 1px solid #ccc;
+    padding: 4px 8px;
+}
+#content table ol {
+    margin: .4em 0;
+}
+#content table col {
+}
+#content table col.word-base,
+#content table col.word-assemble {
+    width: 6%;
+}
+#content table col.phonetic {
+    width: 20%;
+}
+#content table tbody th:nth-child(1) {
+    border-right: 0 none;
+    padding-right: 0;
+}
+#content table tbody th:nth-child(2) {
+    border-left: 0 none;
+    padding-left: 0;
+}
+#content table tbody th:nth-child(1)::after {
+    content: '-';
+    margin-left: 8px;
+    color: #999;
+    font-size: 12px;
+    font-family: tahoma, verdana, segoe, sans-serif;
+}
+#content table tbody th:nth-child(2)::before {
+    content: '>';
+    margin-right: 8px;
+    color: #999;
+    font-size: 12px;
+    font-family: tahoma, verdana, segoe, sans-serif;
+}
+#content table tbody td:nth-child(3) ol {
+    padding: 0;
+    list-style: none;
+}
+
+#supplement {
+    margin-top: 60px;
+}
+
+footer {
+    margin-top: 60px;
+    padding-bottom: 20px;
+    text-align: right;
+    line-height: 1.5;
+}
+
+cite,
+.fn {
+    font-style: normal;
+    text-decoration: underline;
+}
 
