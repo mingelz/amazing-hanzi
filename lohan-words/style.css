@@ -1,0 +1,28 @@
+body {
+    font: 16px georgia, "lucida grande", "microsoft yaHei", verdana, sans-serif;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 620px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+section {
+    line-height: 1.8;
+}
+
+#content{margin-top:50px;line-height:1.8;}
+#content table{margin-top:20px;border-collapse:collapse;border-spacing:0;width:100%;}
+#content caption{background-color:#CCC;font:700 18px/2 'Microsoft Yahei';}
+#content th,#content td{border:1px solid #CCC;padding:3px 8px;}
+#content table ol{margin:.4em 0;}
+        col.words{width:12%;}
+        col.phonetic{width:12%;}
+        #supplement{margin-top:50px;}
+#footer{margin-top:50px;padding-bottom:20px;text-align:right;line-height:1.5;}
+.fn{font-style:italic;}
+
